@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "blocklake"
+version = "0.1.0"
+description = ""
+authors = ["ayslanleal <ayslanleal15@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.1"
+requests = "^2.28.1"
+backoff = "^2.2.1"
+ratelimit = "^2.2.1"
+pynamodb = "^5.2.1"
+s3fs = "^2022.10.0"
+boto3 = "1.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

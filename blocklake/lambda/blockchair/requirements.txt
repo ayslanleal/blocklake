@@ -1,0 +1,7 @@
+pandas
+ratelimit
+boto3
+s3fs
+pynamodb
+requests
+backoff
