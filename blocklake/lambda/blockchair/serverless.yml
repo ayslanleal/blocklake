@@ -1,0 +1,22 @@
+service: blockchairv1
+
+provider:
+  name: aws
+  runtime: python3.8
+
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+
+package:
+  exclude:
+    - '**/*'
+  include:
+    - '*.py'
+
+functions:
+  blockchair:
+    handler: handler.hello
