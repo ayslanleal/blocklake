@@ -1,6 +1,6 @@
 # ⛓️Blocklake
 
-Blocklake is a project that aims to unify different data from different sources related to blockchains. Blockchair and DeffiLamma APIs were used as source, which provide block data, transactions, address information and protocol data (Defi, Yields, DEXs) such as TVL, % yields, liquidations. The data pipeline architecture was designed and developed entirely on AWS.
+Blocklake is a project that aims to unify different data from different sources related to blockchains. [Blockchair](https://blockchair.com/) and [DeffiLamma](https://defillama.com/docs/api) APIs were used as source, which provide block data, transactions, address information and protocol data (Defi, Yields, DEXs) such as TVL, % yields, liquidations. The data pipeline architecture was designed and developed entirely on AWS.
 
 ![Architeture](./architeture.jpg)
 
