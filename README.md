@@ -1,6 +1,6 @@
 # ⛓️Blocklake
 
-Blocklake is a project that aims to unify different data from different sources related to blockchains. [Blockchair](https://blockchair.com/) and [DeffiLamma](https://defillama.com/docs/api) APIs were used as source, which provide block data, transactions, address information and protocol data (Defi, Yields, DEXs) such as TVL, % yielsftretrtds, liquidations. The data pipeline architecture was designed and developed entirely on AWS.
+Blocklake is a project that aims to unify different data from different sources related to blockchains. [Blockchair](https://blockchair.com/) and [DeffiLamma](https://defillama.com/docs/api) APIs were used as source, which provides block data, transactions, address information, and protocol data (Defi, Yields, DEXs) such as TVL, % yields, and liquidations. The data pipeline architecture was designed and developed entirely on AWS.
 
 ![Architeture](./architeture.jpg)
 
@@ -67,4 +67,4 @@ Running the above will automatically add `serverless-python-requirements` to `pl
 
 ## 📝 License
 
-Licensed under the [MIT License](./LICENSE).
+Licensed under the [Apache License](./LICENSE).
